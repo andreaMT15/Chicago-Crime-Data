@@ -38,29 +38,29 @@ function renderTotalChart() {
 
   var chart = am4core.create(
     document.getElementById("chartdiv"),
-    am4charts.XYChart3D
+    am4charts.XYChart3D,
   );
 
   chart.data = [
     {
       crime: totalChartData[4].crime,
-      total: totalChartData[4].totalCount
+      total: totalChartData[4].totalCount,
     },
     {
       crime: totalChartData[2].crime,
-      total: totalChartData[2].totalCount
+      total: totalChartData[2].totalCount,
     },
     {
       crime: totalChartData[0].crime,
-      total: totalChartData[0].totalCount
+      total: totalChartData[0].totalCount,
     },
     {
       crime: totalChartData[1].crime,
-      total: totalChartData[1].totalCount
+      total: totalChartData[1].totalCount,
     },
     {
       crime: totalChartData[3].crime,
-      total: totalChartData[3].totalCount
+      total: totalChartData[3].totalCount,
     }
   ];
 
@@ -78,6 +78,7 @@ function renderTotalChart() {
   let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
   valueAxis.title.text = "Crime";
   valueAxis.title.fontWeight = "bold";
+  
 
   // Create series
   var series = chart.series.push(new am4charts.ColumnSeries3D());
