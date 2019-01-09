@@ -47,7 +47,7 @@ body {
 }
 #chartdiv,
 #chart2div {
-  width: 60%;
+  max-width: 695px;
   height: 300px;
   margin: auto;
   background-color: #fff;
@@ -140,7 +140,11 @@ label {
   text-align: center;
 }
 
+<<<<<<< HEAD
 #chart-prompt {
+=======
+#chart-prompt, #map-prompt {
+>>>>>>> 2686a2031b70f7c8c40ad8b9b10e5fb6aa7f74cb
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 10px;
