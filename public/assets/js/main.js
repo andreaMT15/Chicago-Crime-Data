@@ -20,7 +20,6 @@ function getCrimeCount(crime, year) {
       });
     })
     .then(function(response) {
-      
       renderTotalChart();
     });
 }
@@ -34,9 +33,9 @@ for (var i = 0; i < crimeType.length; i++) {
 
 function renderTotalChart() {
   am4core.useTheme(am4themes_animated);
-  setTimeout(function(){
-    $('#chartLoader').hide()
-  },2000)
+  setTimeout(function() {
+    $("#chartLoader").hide();
+  }, 2000);
   var chart = am4core.create(
     document.getElementById("chartdiv"),
     am4charts.XYChart3D
@@ -133,9 +132,9 @@ $(".form-inline").submit(function(event) {
 
   function renderYearChart() {
     am4core.useTheme(am4themes_animated);
-    setTimeout(function(){
-      $('#chart2Loader').hide()
-    },2000)
+    setTimeout(function() {
+      $("#chart2Loader").hide();
+    }, 2000);
 
     var chart = am4core.create(
       document.getElementById("chart2div"),
@@ -155,22 +154,22 @@ $(".form-inline").submit(function(event) {
 
       //Crime 2
       {
-        crime: yearChartData[3].crime,
-        year2015: yearChartData[3].count
+        crime: yearChartData[2].crime,
+        year2015: yearChartData[2].count
       },
       {
-        crime: yearChartData[4].crime,
-        year2014: yearChartData[4].count
+        crime: yearChartData[3].crime,
+        year2014: yearChartData[3].count
       },
 
       //Crime 3
       {
-        crime: yearChartData[6].crime,
-        year2015: yearChartData[6].count
+        crime: yearChartData[4].crime,
+        year2015: yearChartData[4].count
       },
       {
-        crime: yearChartData[7].crime,
-        year2014: yearChartData[7].count
+        crime: yearChartData[5].crime,
+        year2014: yearChartData[5].count
       }
     ];
     var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());

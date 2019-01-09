@@ -134,17 +134,14 @@ label {
 #bestWorst {
   text-align: center;
 }
-#chartLoader, #chart2Loader {
+#chartLoader,
+#chart2Loader {
   margin: auto;
   width: 100%;
   text-align: center;
 }
 
-<<<<<<< HEAD
 #chart-prompt {
-=======
-#chart-prompt, #map-prompt {
->>>>>>> 2686a2031b70f7c8c40ad8b9b10e5fb6aa7f74cb
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 10px;
