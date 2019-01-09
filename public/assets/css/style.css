@@ -140,7 +140,7 @@ label {
   text-align: center;
 }
 
-#chart-prompt {
+#chart-prompt, #map-prompt {
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 10px;
