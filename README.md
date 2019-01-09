@@ -5,7 +5,7 @@ Our data compares the previous five years, however we gathered statistics dating
 Data is filtered by years and crime type - with theft, battery, narcotics, assault and burglary being the most common.
 All data used is from the City of Chicago’s data portal which is updated every seven days.
 
-Another motivation behind making this assignment was to change a user's perspective on crime in Chicago.
+Another motivation behind making this application was to change a user's perspective on crime in Chicago.
 Users are also able to filter by area, see how its developed, how it compares to surrounding areas
 We encourage users to discuss their thoughts on the data along with anything they have learned through interacting with the application. 
 
