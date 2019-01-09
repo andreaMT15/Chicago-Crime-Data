@@ -26,7 +26,7 @@ We encourage users to discuss their thoughts on the data along with anything the
 * Include data for more cities across the U.S.
 * Allow more user interaction by allowing the user more search capabilities.
 * Improvement of year search functionality. 
-*An interactive discussion board with replies and likes.
+* An interactive discussion board with replies and likes.
 
 
 ### Contributors
